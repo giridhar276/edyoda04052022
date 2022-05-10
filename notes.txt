@@ -191,6 +191,8 @@ or
 not
 
 
+
+
 name = "python"
 if len(name) == 6   and  name.isupper() :
     # do something
@@ -298,6 +300,246 @@ file read operation
 -  fobj.read()
 -  using csv library
 -  using pandas library ( mainly used in data analytics or  file with huge volume of data)
+
+
+
+
+
+
+
+
+
+
+exception handling
+-------------------
+
+
+handling the exceptions in the runtime is known as exception handling.
+
+
+try
+except
+finally
+else
+
+
+try:
+  #
+except:
+  #
+
+
+try:
+  ##
+except:
+  ##
+else:
+  ##
+
+
+try:
+
+except:
+
+
+
+
+library | package | module | 
+- Every library contains some set of methods.
+
+
+
+builtin libraries
+------------------
+all the builtin libraries which are generally used(math operations , file handling , string operations ,
+ftp operations ... )    are available with python by default.
+
+
+
+
+third party libraries
+---------------------
+Depending on the requirement( database operations , data analytics, remote connections , image processing , machine learning , web ) developer has to install the third party library from 
+
+-www.pypi.org(manually)
+- pip tool
+- easy_install tool
+
+
+There are 2 types of installing any library
+
+- pip tool  (  everything is taken care by pip tool ) 
+
+- downloading and installing manually   from pypi.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function | definition | subroutine | submodule | block
+------------------------------------------------
+
+
+- reusability
+- define the block once and call it for multiple times
+
+
+
+There are 2 types of functions
+-------------------------------
+
+- builtin functions  
+- user defined functions
+
+
+
+user defined functions
+---------------------
+
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments  ( * - tuple ,  ** - dictionary ) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+re
+----
+- searching ( re.search)
+- matching ( at the beginning of the string)  ( re.match)
+- substitute ( replacing)   ( re.sub)
+- findall   ( re.findall)
+- split     ( re.split)
+
+re is all about metacharacters or wildcard characters
+
+
+^ : match at the beginning of the string
+
+
+$ : at the end of the string
+
+* : zero or more occurences of the preceding character
+
++ : one more more occurence of the preceding character
+
+? : either zero of once occurence of hte preceding character
+
+. : any single character or digit or symbol
+
+[] : character class - any single character or digit or symbol
+     if re.search("[pqut]ython",line):     # python or qython or uython or tython
+     if re.search("[a-zA-Z0-9]ython",line): 
+
+
+() : (pattern1|pattern2)
+     displays all the lines containing either pattern1 or pattern2
+
+
+{} : { min,max} occurences of the preceding character
+      name = "pyttthon"
+      re.search(pyt{1,3}hon",name)
+      re.search(pyt{1,}hon",name)
+      re.search(pyt{1}hon",name)
+
+whitespaces
+\s : space
+\d : digit
+\w : word
+
+
+
+
+languages
+
+- procedural programming languages ( C ...)
+- Object oriented programming ( java cpp ... )
+
+
+We are going to write out customized classes
+
+class
+-----
+Class is just like blueprint of the house.
+Every class contains data members and member functions
+
+
+object
+---------
+object is the instance of the list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
